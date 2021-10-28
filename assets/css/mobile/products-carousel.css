@@ -1,0 +1,128 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.products-carousel {
+				padding-bottom: 60px;
+}
+.products-carousel--wrapper {
+				margin-bottom: 80px;
+}
+.products-carousel--wrapper .contain-product-item {
+				width: 100%;
+				padding: 1.5rem;
+				max-width: 260px;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: stretch;
+				-webkit-align-items: stretch;
+				   -moz-box-align: stretch;
+				    -ms-flex-align: stretch;
+				        align-items: stretch;
+				min-height: 100%;
+}
+.products-carousel--wrapper .bc-product__title-link {
+				white-space: normal;
+}
+.products-carousel--wrapper .bc-product-card {
+				overflow: hidden;
+				background: #FFF;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				     border-radius: 8px;
+				-webkit-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.1), 0 1px 2px 0px rgba(0, 0, 0, 0.06);
+				-moz-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.1), 0 1px 2px 0px rgba(0, 0, 0, 0.06);
+				     box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.1), 0 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.products-carousel--wrapper .bc-product-card .bc-quickview-trigger {
+				width: 100%;
+}
+.products-carousel--wrapper .bc-product-card .bc-product-card__featured-image {
+				max-width: 100%;
+}
+.products-carousel--wrapper .bc-product-card .bc-product-card__featured-image img {
+				width: 100%;
+}
+.products-carousel--wrapper.ct-freeflow-slider .ct-arrow {
+				background: transparent;
+}
+.products-carousel .btn-round {
+				border: none;
+				background-color: #FEA536;
+}
+.products-carousel .btn-round:hover, .products-carousel .btn-round:active, .products-carousel .btn-round:focus {
+				background-color: #000000;
+				color: #ffffff;
+}
+.products-carousel .related__cat--list {
+				padding: 0;
+				margin-top: 30px;
+				list-style-type: none;
+}
+@media (min-width: 551px) {
+				.products-carousel .related__cat--list {
+								display: -webkit-box;
+								display: -webkit-flex;
+								display: -moz-box;
+								display: -ms-flexbox;
+								display: flex;
+								-webkit-box-pack: center;
+								-webkit-justify-content: center;
+								   -moz-box-pack: center;
+								    -ms-flex-pack: center;
+								        justify-content: center;
+				}
+}
+.products-carousel .related__cat--list li a {
+				font-size: 2rem;
+				font-weight: 700;
+				position: relative;
+				border-bottom: none;
+				font-family: "Archivo Narrow", sans-serif;
+}
+.products-carousel .related__cat--list li a svg {
+				width: 20px;
+				height: 20px;
+				fill: #FEA536;
+				margin-left: 10px;
+				display: inline-block;
+				vertical-align: middle;
+}
+@media (min-width: 551px) {
+				.products-carousel .related__cat--list li a svg {
+								width: 25px;
+								height: 25px;
+				}
+}
+.products-carousel .related__cat--list li {
+				padding: 10px;
+}
+.products-carousel .related__cat--list li:first-child {
+				border-bottom: 1px solid #E6E6E6;
+}
+@media (max-width: 550px) {
+				.products-carousel .related__cat--list li {
+								width: 100%;
+				}
+}
+@media (min-width: 551px) {
+				.products-carousel .related__cat--list li {
+								padding: 30px;
+				}
+				.products-carousel .related__cat--list li:first-child {
+								border-bottom: none;
+								border-right: 1px solid #E6E6E6;
+				}
+}
+/*# sourceMappingURL=products-carousel.css.map */

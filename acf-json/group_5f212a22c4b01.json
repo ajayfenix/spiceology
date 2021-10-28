@@ -1,0 +1,156 @@
+{
+    "key": "group_5f212a22c4b01",
+    "title": "Collection Carousel",
+    "fields": [
+        {
+            "key": "field_5f28adde24cb7",
+            "label": "Collection Type",
+            "name": "collection_type",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "collection_types",
+            "field_type": "select",
+            "allow_null": 0,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5fbdd4634f664",
+            "label": "Exclude from List",
+            "name": "exclude_from_list",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "collections"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_5f21e36d371d5",
+            "label": "Primary Heading",
+            "name": "primary_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f21e37c371d6",
+            "label": "Sub Heading",
+            "name": "sub_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f21e394371d7",
+            "label": "Section Blurb",
+            "name": "section_blurb",
+            "type": "medium_editor",
+            "instructions": "Use [count_total] to get a total amount of products or [count] to make the total be specific to the query. Both of them will round down to the closest 10. they'll also append + to the end of the number.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/collection-carousel"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1606276240
+}

@@ -1,0 +1,205 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+.block-editor-block-list__layout {
+	@import "desktop/core";
+}
+
+.block-editor-block-list__layout .align-full,
+.block-editor-block-list__layout .alignfull,
+.block-editor-block-list__layout .breakout,
+.block-editor-block-list__layout .bc-product-single .bc-single-product__related {
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+.components-popover.block-editor-block-list__block-popover .components-popover__content .block-editor-block-contextual-toolbar,
+.components-popover.block-editor-block-list__block-popover .components-popover__content .block-editor-block-list__breadcrumb,
+body .editor-styles-wrapper .block-editor-block-list__block {
+	h1, h2, h3, h4, h5, h6 {
+		margin: 20px auto 10px !important;
+	}
+}
+
+@media (min-width: 851px) {
+	.image-text-1 figure {
+		width: 60% !important;
+		margin-right: -71px !important;
+		margin-bottom: 43px !important;
+	}
+}
+
+h1, .h1 {
+	font-family: $h1-font;
+	font-size: $h1-font-size;
+}
+h2, .h2 {
+	font-family: $h2-font;
+	font-size: $h2-font-size;
+}
+h3, .h3 {
+	font-family: $h3-font;
+	font-size: $h3-font-size;
+}
+h4, .h4 {
+	font-family: $h4-font;
+	font-size: $h4-font-size;
+}
+h5, .h5 {
+	font-family: $h5-font;
+	font-size: $h5-font-size;
+}
+h6, .h6 {
+	font-family: $h6-font;
+	font-size: $h6-font-size;
+}
+a {
+	color: $c-blends;
+	text-decoration: none;
+	-webkit-transition: $trans;
+		 -moz-transition: $trans;
+		-ms-transition: $trans;
+		 -o-transition: $trans;
+			transition: $trans;
+	img {
+		border-style: none;
+	}
+	&:hover {
+		color: $c-spices;
+	}
+}
+html {
+	font-size: 10px;
+}
+body,
+.bc-product-quick-view__wrapper {
+	color: #1A1919;
+	line-height: 1.4;
+	font-family: $font;
+	font-size: $font-size;
+}
+.underlined {
+	display: inline-block;
+	border-bottom: 2px solid $c-spices;
+}
+.upper {
+	text-transform: uppercase;
+}
+.editor-post-taxonomies__hierarchical-terms-input[type="radio"] {
+	background: $c-spices !important;
+	border: 6px solid $c-spices !important;
+	&::before {
+		margin: -3px !important;
+	}
+}
+.wp-block-cover.min-height-zero {
+	min-height: auto;
+}
+.wp-block-cover.p-t-65 {
+	padding-top: 65px;
+}
+.wp-block-cover.text-black {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: #1A1919 !important;
+	}
+}
+.products-carousel { 
+	.btn-round {
+		background-color: $c-spices !important;
+		border:none;
+		border-radius: 50px;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $c-blends !important;
+			color: $c-white !important;
+		}
+	}
+	.related__cat--list {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		padding: 0;
+	}
+	
+	.related__cat--list li a {
+		display: block;
+		font-size: 2rem;
+		font-weight: 700;
+		position: relative;
+		padding-right: 30px;
+		@media (min-width: 551px) { 
+			padding-right: 35px;
+		}
+		font-family: $font-alt;
+	}
+	
+	.related__cat--list li a svg {
+		width: 20px;
+		height: 20px;
+		@media (min-width: 551px) {
+			width: 25px;
+			height: 25px;
+		}
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 0;
+		fill: $c-spices;
+	}
+	
+	.related__cat--list li {
+		padding: 15px;
+		@media (min-width: 551px) {
+			padding: 30px;
+		}
+	}
+	
+	.related__cat--list li:first-child {
+		border-right: 1px solid $c-gray-100;
+	}
+}
+.wp-block-buttons .block-editor-block-list__layout > * {
+	vertical-align: top;
+	display: inline-block;
+}
+.custom--heading {
+	font-size: 3.6rem;
+	color: #fff;
+	margin: 0;
+	span {
+		color: $c-spices;
+	}
+}
+.block-editor-block-list__block {
+	ul {
+		margin-left: 2em;
+		list-style: disc;
+	}
+	.components-button.block-editor-inserter__toggle {
+		padding: 0 !important;
+		color: #FFF !important;
+		box-shadow: none !important;
+		background: #007CBA !important;
+		border: 1px solid #007CBA !important;
+		svg {
+			fill: #FFF !important;
+		}
+	}
+}
+.big-font {
+	font-size: $h2-font-size;
+}
+.no-white-color.wp-block-cover .wp-block-cover__inner-container {
+	color: inherit;
+}

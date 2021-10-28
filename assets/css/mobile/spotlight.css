@@ -1,0 +1,70 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.spotlight {
+				margin-top: 60px;
+				padding-bottom: 50px;
+				background: #E6E6E6;
+}
+.spotlight .container {
+				max-width: 1238px;
+}
+.spotlight .block-title {
+				display: table;
+				font-weight: 700;
+				text-align: center;
+				margin: 0 auto 30px;
+				letter-spacing: 1.5px;
+				text-transform: uppercase;
+}
+.spotlight .block-title .highlight-title {
+				line-height: 1;
+				color: #000000;
+				padding: 3px 4.5px;
+				background: #FEA536;
+}
+.spotlight .block-title + h2 {
+				text-align: center;
+}
+.spotlight .wp-block-button__link {
+				border-color: #CCCCCC;
+				font-size: 1.6rem !important;
+				padding: 0.7rem 6.2rem !important;
+}
+.spotlight h6 {
+				margin-bottom: 0;
+				color: #666666;
+				text-transform: uppercase;
+}
+.spotlight p {
+				margin-top: 0;
+}
+.spotlight .container > .row {
+				margin-top: -60px;
+}
+.spotlight figure {
+				width: 100%;
+				overflow: hidden;
+				-webkit-border-top-right-radius: 24px;
+				   -moz-border-radius-topright: 24px;
+				        border-top-right-radius: 24px;
+}
+.spotlight .text-area {
+				background: #FFF;
+				position: relative;
+				padding: 25px 20px 50px;
+				-webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+				-moz-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+				     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+				width: 100%;
+}
+/*# sourceMappingURL=spotlight.css.map */

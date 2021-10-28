@@ -1,0 +1,1193 @@
+{
+    "key": "group_5e764dca4ed6d",
+    "title": "Site settings",
+    "fields": [
+        {
+            "key": "field_5e76515a3f673",
+            "label": "Logo",
+            "name": "logo_media",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "70",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "svg, png, jpg"
+        },
+        {
+            "key": "field_5e7sjls5sajw",
+            "label": "Points per Dollar",
+            "name": "points_per_dollar",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_5e7grhgh5a3f673",
+            "label": "Default Fallback Image",
+            "name": "fallback_image",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "svg, png, jpg"
+        },
+        {
+            "key": "field_5fa4b36eb313e",
+            "label": "Image For Giftcard",
+            "name": "image_for_giftcard",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "svg, png, jpg"
+        },
+        {
+            "key": "field_5fb2fb25de5ee",
+            "label": "Smile Points Description",
+            "name": "smile_points_description",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": "",
+            "custom_buttons": "",
+            "other_options": [
+                "disableReturn",
+                "disableDoubleReturn",
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f8a2b084b387",
+            "label": "Site Announcements",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f8a2b274b389",
+            "label": "Enable Site Announcement",
+            "name": "enable_site_announcement",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f8a2b4f4b38a",
+            "label": "Site Announcement Text Color",
+            "name": "site_announcement_text_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f8a2b274b389",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#FFFFFF"
+        },
+        {
+            "key": "field_5f8a2b824b38b",
+            "label": "Site Announcement Background Color",
+            "name": "site_announcement_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f8a2b274b389",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#000000"
+        },
+        {
+            "key": "field_5f8a2b164b388",
+            "label": "Site Announcements Text",
+            "name": "site_announcements_text",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f8a2b274b389",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f9715d67938f",
+            "label": "Wishlist page",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f9715e379390",
+            "label": "Wishlist Title",
+            "name": "wishlist_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f9715f179391",
+            "label": "Wishlist Description",
+            "name": "wishlist_description",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5e764e9b4ccskls",
+            "label": "Shop page",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e7sjls583f671",
+            "label": "Shop Title",
+            "name": "shop_title",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5e76skls583f671",
+            "label": "Shop Description",
+            "name": "shop_description",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e764e9b4csdkak",
+            "label": "Recipes page",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e7sjls5sjsdjsns",
+            "label": "Recipes Title",
+            "name": "recipes_title",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5e76skls583fdnwek",
+            "label": "Recipes Description",
+            "name": "recipes_description",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e764e9b4cc04",
+            "label": "Social contact",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e7651f63f675",
+            "label": "Social media",
+            "name": "social_media",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add social media",
+            "sub_fields": [
+                {
+                    "key": "field_5e7652323f676",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        },
+        {
+            "key": "field_5e764f404cc06",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e7650583f671",
+            "label": "Copyright message",
+            "name": "copyright",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f18d8cfba6b2",
+            "label": "Legal Footer Links",
+            "name": "legal_footer_links",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 1,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_5f925680f87d6",
+            "label": "Search (No Results)",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f9256bff87d8",
+            "label": "No Results Title",
+            "name": "no_results_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f925692f87d7",
+            "label": "No Results Message",
+            "name": "no_results_message",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f9257ff7d9bc",
+            "label": "No Results Message (Non-search)",
+            "name": "no_results_message_non-search",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f9256fd69945",
+            "label": "404",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f92570869946",
+            "label": "404 Title",
+            "name": "404_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f92571869947",
+            "label": "404 Message",
+            "name": "404_message",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f99e852d56b9",
+            "label": "Login",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f99e8cfd56bf",
+            "label": "Enable Alert on page",
+            "name": "enable_alert_on_page",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f99e8b0d56bd",
+            "label": "Alert Message",
+            "name": "alert_message",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f99e8cfd56bf",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f99e867d56ba",
+            "label": "New Customer Title",
+            "name": "new_customer_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f99e88ad56bb",
+            "label": "New Customer Text",
+            "name": "new_customer_text",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f9b31054ad10",
+            "label": "Reset Password",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f9b31164ad11",
+            "label": "Reset password message",
+            "name": "reset_password_message",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f99e8cfd56bf",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5e764df44cc03",
+            "label": "Custom code",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e764f694cc07",
+            "label": "Header code",
+            "name": "header_code",
+            "type": "textarea",
+            "instructions": "Include the <code>&#x3C;script&#x3E;<\/code> or the\t<code>&#x3C;style&#x3E;<\/code> tags",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5e7650419a574",
+            "label": "Footer code",
+            "name": "footer_code",
+            "type": "textarea",
+            "instructions": "Include the <code>&#x3C;script&#x3E;<\/code> or the\t<code>&#x3C;style&#x3E;<\/code> tags",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "ct-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1609282605
+}

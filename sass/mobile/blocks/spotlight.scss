@@ -1,0 +1,56 @@
+@import "../../mixins-master";
+
+.spotlight {
+	margin-top: 60px;
+	padding-bottom: 50px;
+	background: $c-gray-100;
+	.container {
+		max-width: 1238px;
+	}
+	.block-title {
+		display: table;
+		font-weight: 700;
+		text-align: center;
+		margin: 0 auto 30px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		.highlight-title {
+			line-height: 1;
+			color: $c-blends;
+			padding: 3px 4.5px;
+			background: $c-spices;
+		}
+		+ h2 {
+			text-align: center;
+		}
+	}
+	.wp-block-button__link {
+		border-color: $c-gray-200;
+		font-size: 1.6rem !important;
+		padding: 0.7rem 6.2rem !important;
+	}
+	h6 {
+		margin-bottom: 0;
+		color: $c-gray-600;
+		text-transform: uppercase;
+	}
+	p {
+		margin-top: 0;
+	}
+	.container > .row {
+		margin-top: -60px;
+	} 
+	figure {
+		width: 100%;
+		overflow: hidden;
+		border-top-right-radius: 24px;
+	}
+	.text-area {
+		background: #FFF;
+		position: relative;
+		padding: 25px 20px 50px;
+		-webkit-box-shadow: $shadow-xl;
+		        box-shadow: $shadow-xl;
+		width: 100%;
+	}
+}

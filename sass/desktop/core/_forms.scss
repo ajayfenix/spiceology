@@ -1,0 +1,58 @@
+@media (min-width: 450px) {
+	.group-fields {
+		flex-direction: row;
+		> * {
+			margin-bottom: 0;
+			margin-right: 10px;
+			&:last-child {
+				margin: 0;
+			}
+			&:only-child {
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media (min-width:641px) {
+	.gform_fields {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full) ~ span:not(.ginput_full),
+	.ginput_complex:not(.ginput_container_address) fieldset:not([style*="display:none"]):not(.ginput_full) ~ span:not(.ginput_full) {
+		padding-left: 1rem;
+	}
+
+	.ginput_container_address.has_street2:not(.has_street) span:not(.ginput_full):nth-of-type(2n),
+	.ginput_container_address.has_street:not(.has_street2) span:not(.ginput_full):nth-of-type(2n),
+	.ginput_container_address:not(.has_street):not(.has_street2) span:not(.ginput_full):nth-of-type(2n+1),
+	.ginput_container_address.has_street.has_street2 span:not(.ginput_full):nth-of-type(2n+1) {
+		padding-right: 1rem;
+	}
+
+	.ginput_full:not(:last-of-type),
+	.ginput_container_address span:not(.ginput_full):not(:last-of-type):not(:nth-last-of-type(2)) {
+		margin-bottom: 2rem;
+	}
+
+	html[dir="rtl"] .ginput_complex:not(.ginput_container_address) span:not([style*="display:none"]):not(.ginput_full) ~ span:not(.ginput_full) {
+		padding-left: 0;
+		padding-right: 1rem;
+	}
+
+	html[dir="rtl"] .ginput_container_address.has_street2:not(.has_street) span:not(.ginput_full):nth-of-type(2n),
+	html[dir="rtl"] .ginput_container_address.has_street:not(.has_street2) span:not(.ginput_full):nth-of-type(2n),
+	html[dir="rtl"] .ginput_container_address:not(.has_street):not(.has_street2) span:not(.ginput_full):nth-of-type(2n+1),
+	html[dir="rtl"] .ginput_container_address.has_street.has_street2 span:not(.ginput_full):nth-of-type(2n+1) {
+		padding-right: 0;
+		padding-left: 1rem;
+	}
+
+	html[dir="rtl"] .gform_show_password {
+		right: unset;
+		left: 0.5rem;
+	}
+
+}

@@ -1,0 +1,31 @@
+@import "../../mobile/blocks/spotlight";
+
+@media (min-width: 851px) {
+	.spotlight {
+		padding-bottom: 150px;
+		.block-title {
+			margin: 0 0 30px;
+			+ h2 {
+				text-align: inherit;
+			}
+		}
+		> .container > .row {
+			-webkit-flex-direction: row-reverse;
+			    -ms-flex-direction: row-reverse;
+			        flex-direction: row-reverse;
+		}
+		figure {
+			width: 50% !important;
+		}
+		.text-area {
+			width: 50%;
+			display: flex;
+			position: relative;
+			padding: 30px 63px 50px;
+			-webkit-align-items: center;
+			        align-items: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+		}
+	}
+}

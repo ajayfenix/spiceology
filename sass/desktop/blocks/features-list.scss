@@ -1,0 +1,17 @@
+@import "../../mobile/blocks/features-list";
+
+@media (min-width: 768px) {
+	.features-list {
+		.block-content-side {
+			text-align: right;
+			padding-top: 100px;
+			padding-right: 100px;
+		}
+		&.feature-style-two {
+			.block-content-side {
+				padding-right: 0;
+				text-align: center;
+			}
+		}
+	}
+}

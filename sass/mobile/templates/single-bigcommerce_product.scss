@@ -1,0 +1,69 @@
+@import "../../mixins-master";
+
+.single-bigcommerce_product {
+	.review-overview {
+		padding: 30px 0;
+		.reviews-meta-info {
+			display: flex;
+			-webkit-align-items: center;
+			        align-items: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			.score {
+				color: white;
+				font-weight: 700;
+				margin: 10px 1px;
+				padding: 15px 10px;
+				text-align: center;
+				border-radius: 3px;
+				background: $c-blends;
+				vertical-align: middle;
+				font-size: $h6-font-size;
+			}
+			.main-reviews-info {
+				width: 100%;
+				padding: 0 10px;
+				white-space: nowrap;
+			}
+		}
+		.reviews-chart {
+			width: 100%;
+			.singular-star-overview {
+				display: flex;
+				font-size: $h6-font-size;
+				width: 100%;
+				height: 22px;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.star-sub-total {
+				width: 30px;
+			}
+			.star-bar-line {
+				position: relative;
+				height: 6px;
+				background-color: rgba(0, 0, 0, 0.1);
+				display: inline-block;
+				width: calc(100% - 15rem);
+				vertical-align: middle;
+				font-size: 0;
+				border-radius: 3px;
+				overflow: hidden;
+				.progress {
+					top: 0;
+					left: 0;
+					height: 100%;
+					position: absolute;
+					background: $c-spices;
+				}
+			}
+		}
+	}
+	.custom-rating-picker .bc-single-product__rating--mask {
+		-webkit-transition: $trans;
+		   -moz-transition: $trans;
+		    -ms-transition: $trans;
+		     -o-transition: $trans;
+		        transition: $trans;
+	}
+}

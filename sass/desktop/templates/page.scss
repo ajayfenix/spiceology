@@ -1,0 +1,20 @@
+@import "../../mixins-master";
+@import "../../mobile/templates/page";
+
+@media (min-width: 768px) {
+	.search-result-item {
+		display: flex;
+		-webkit-align-content: center;
+				align-content: center;
+		-webkit-justify-content: center;
+				justify-content: center;
+		.result-image-wrapper {
+			width: 300px;
+			align-self: center;
+		}
+		.result-content-wrapper {
+			padding-left: 20px;
+			width: calc(100% - 300px);
+		}
+	}
+}

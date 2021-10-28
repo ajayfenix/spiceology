@@ -1,0 +1,89 @@
+@import "../../mixins-master";
+
+.create-account {
+	color: #FFF;
+	padding: 20px 0;
+	text-align: center;
+	* {
+		font-family: $font-alt;
+	}
+	.row {
+		display: block;
+	}
+	.item-container {
+		display: flex;
+		padding: 15px 0;
+		position: relative;
+		text-align: center;
+		-webkit-align-items: center;
+				align-items: center;
+		-webkit-justify-content: center;
+				justify-content: center;
+		&:after {
+			bottom: 0;
+			left: 50%;
+			width: 40px;
+			height: 2px;
+			content: " ";
+			position: absolute;
+			background: $c-spices;
+			-webkit-transform: translateX(-50%);
+			   -moz-transform: translateX(-50%);
+			    -ms-transform: translateX(-50%);
+			     -o-transform: translateX(-50%);
+			        transform: translateX(-50%);
+		}
+		&:last-of-type:after {
+			display: none;
+		}
+	}
+	.item {
+		font-size: 2.4rem;
+	}
+	.btn {
+		text-align: center;
+		padding: 1.2rem 4.2rem;
+		-webkit-align-self: center;
+				align-self: center;
+	}
+	.text-with-icon {
+		display: flex;
+		position: relative;
+		align-items: center;
+		padding-bottom: 15px;
+		justify-content: center;
+		&:after {
+			bottom: 0;
+			left: 50%;
+			width: 40px;
+			height: 2px;
+			content: " ";
+			position: absolute;
+			background: $c-spices;
+			-webkit-transform: translateX(-50%);
+			   -moz-transform: translateX(-50%);
+			    -ms-transform: translateX(-50%);
+			     -o-transform: translateX(-50%);
+			        transform: translateX(-50%);
+		}
+		svg {
+			height: 45px;
+		}
+		.text {
+			text-align: center;
+			padding-left: 12px;
+			* {
+				margin: 0;
+				line-height: 1;
+			}
+			.main {
+				font-size: 3.7rem;
+			}
+			.sub-text {
+				font-weight: 400;
+				font-size: 2.2rem;
+				color: $c-gray-200;
+			}
+		}
+	}
+}

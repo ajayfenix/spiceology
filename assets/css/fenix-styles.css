@@ -1,0 +1,85 @@
+#view-all-shipping,
+#view-all-shipping:hover,
+#view-all-shipping:focus,
+#fenix-toggle-zip,
+#fenix-toggle-zip:hover,
+#fenix-toggle-zip:focus{
+	outline: none;
+	border: none;
+}
+
+.popup.fenix-provided-options{position:relative;display:block;cursor:pointer;}
+.popup.fenix-provided-options .popuptext{background-color:#fff;text-align:center;border-radius:6px;padding:8px 0;position:absolute;z-index:10001;bottom:20px;left:30%;margin-left:-80px;padding:9px 14px;max-width:450px;min-width:300px;box-shadow:0 5px 10px rgba(0,0,0,0.2);}
+.popup.fenix-provided-options .popuptext::after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#fff transparent transparent transparent;}
+.fenix-provided-options .shipping-options-title{display:flex;align-items:stretch;flex-direction:row;font-size:14px;margin:10px 5px 3px 0;letter-spacing:normal;padding:8px 0;margin:0;font-size:14px;font-weight:500;line-height:18px;padding-bottom: 0px;margin-bottom: 0px;}
+.fenix-provided-options h2.shipping-options-title div:last-child{width:55%;text-align:right;}
+.fenix-provided-options .fenix-logo{font-size:9px;letter-spacing:normal;color:#4d4d4d;text-align:left;}
+.fenix-provided-options table{font-size:12px;width:98%;color:rgba(0,0,0,0.8);border-spacing: 0px;}
+.fenix-provided-options table thead th{color:#fff;background-color:#0088c3;font-weight:700;padding:8px;}
+.fenix-provided-options table td{padding-top:7px;padding-bottom:7px;text-align: center;}
+.fenix-provided-options table{font-size:12px;width:98%!important;color:rgba(0,0,0,0.8);margin-top:15px;margin-bottom:15px;display:inline-table!important;}
+.fenix-provided-options table td{border:solid 1px black;padding:4px;}
+.fenix-provided-options table tr:last-child{border-bottom:solid 1px black;}
+.fenix-provided-options table thead th{color:white;background-color:#4d4d4d;font-weight:bold;padding:4px;border:solid 1px #212b36;}
+.fenix-provided-options .fenix-logo svg{
+	width: 100px;
+    position: relative;
+    top: 8px;
+    left: 4px;
+}
+
+#feinxtrucksvg{
+	position: relative;
+    top: 2px;
+    margin-right: 2px;
+    width: 24px;
+}
+
+#fenixfixddelivery_woocom{
+    border-radius: 8px; 
+    margin-bottom: 15px;
+    font-family: "Archivo Narrow",sans-serif;
+}
+
+#fenixfixddelivery_woocom .fenix-resp-span-date{
+    font-weight: 700;
+}
+
+
+#fenixfixddelivery_woocom #fenix-zip-inpt{
+    display: inline-block;
+}
+
+#fenixfixddelivery_woocom #check-zip{
+    background: #fea536;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 44px;
+}
+
+
+#fenixfixddelivery_woocom .fenix-resp-span-shippingname{
+    font-weight: 700;
+}
+
+.fenixviewallclose{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+#fenixfixddelivery_woocom{
+    font-size: 12px;
+    line-height: 18px;
+}    
+
+#feinxtrucksvg{
+    width: 20px;
+}
+
+}

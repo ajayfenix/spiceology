@@ -1,0 +1,124 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.create-account {
+				color: #FFF;
+				padding: 20px 0;
+				text-align: center;
+}
+.create-account * {
+				font-family: "Archivo Narrow", sans-serif;
+}
+.create-account .row {
+				display: block;
+}
+.create-account .item-container {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+				padding: 15px 0;
+				position: relative;
+				text-align: center;
+				-webkit-align-items: center;
+				-webkit-box-align: center;
+				   -moz-box-align: center;
+				    -ms-flex-align: center;
+				        align-items: center;
+				-webkit-justify-content: center;
+				-webkit-box-pack: center;
+				   -moz-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
+}
+.create-account .item-container:after {
+				bottom: 0;
+				left: 50%;
+				width: 40px;
+				height: 2px;
+				content: " ";
+				position: absolute;
+				background: #FEA536;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				transform: translateX(-50%);
+}
+.create-account .item-container:last-of-type:after {
+				display: none;
+}
+.create-account .item {
+				font-size: 2.4rem;
+}
+.create-account .btn {
+				text-align: center;
+				padding: 1.2rem 4.2rem;
+				-webkit-align-self: center;
+				-ms-flex-item-align: center;
+				    -ms-grid-row-align: center;
+				    align-self: center;
+}
+.create-account .text-with-icon {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+				position: relative;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				   -moz-box-align: center;
+				    -ms-flex-align: center;
+				        align-items: center;
+				padding-bottom: 15px;
+				-webkit-box-pack: center;
+				-webkit-justify-content: center;
+				   -moz-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
+}
+.create-account .text-with-icon:after {
+				bottom: 0;
+				left: 50%;
+				width: 40px;
+				height: 2px;
+				content: " ";
+				position: absolute;
+				background: #FEA536;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				transform: translateX(-50%);
+}
+.create-account .text-with-icon svg {
+				height: 45px;
+}
+.create-account .text-with-icon .text {
+				text-align: center;
+				padding-left: 12px;
+}
+.create-account .text-with-icon .text * {
+				margin: 0;
+				line-height: 1;
+}
+.create-account .text-with-icon .text .main {
+				font-size: 3.7rem;
+}
+.create-account .text-with-icon .text .sub-text {
+				font-weight: 400;
+				font-size: 2.2rem;
+				color: #CCCCCC;
+}
+/*# sourceMappingURL=create-account.css.map */

@@ -1,0 +1,175 @@
+#site-footer {
+	color: #FFF;
+	padding: 35px 30px 65px;
+	background: $c-blends;
+	.gform_required_legend {
+		display: none;
+	}
+	.gform_heading {
+		width: 100%;
+	}
+	.gform_description {
+		display: block;
+		font-size: 1.4rem;
+		color: $c-gray-300;
+		margin-bottom: 2rem;
+	}
+	.gform_fields {
+		display: block;
+		grid-column-gap: 0;
+	}
+	.gform_wrapper form {
+		display: flex;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		max-width: 400px;
+		padding-bottom: 20px;
+	}
+	.gform_body {
+		padding-right: 10px;
+		width: calc(100% - 86px);
+	}
+	.gform_footer {
+		padding: 0;
+		margin-top: 0;
+		input {
+			width: 86px;
+			color: white;
+			background: none;
+			font-size: 1.4rem;
+			padding: 1.1rem 0;
+		}
+	}
+	.main-footer a {
+		font-size: 1.4rem;
+	}
+	a {
+		color: $c-gray-200;
+		&:hover {
+			color: $c-spices;
+		}
+	}
+	.footer-title:not(h4) {
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.footer-title {
+		margin: 0 0 1.6rem;
+	}
+	h4.footer-title {
+		margin-bottom: 1.2rem;
+	}
+	.widget_nav_menu {
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				display: block;
+				margin-bottom: 1.6rem;
+			}
+		}
+	}
+	.copyright {
+		font-size: 1.2rem;
+		color: $c-gray-200;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		.order-m-2 {
+			@media (max-width: 690px) {
+				order: 2;
+			}
+		}
+		ul {
+			margin: 0;
+			padding: 20px 0;
+			display: inline-block;
+			li {
+				margin-left: 1.6rem;
+				margin-right: 1.6rem;
+				@media (max-width: 646px) {
+					margin-bottom: 15px;
+				}
+				display: inline-block;
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.social-wrapper {
+		margin-bottom: 5rem;
+		a {
+			font-size: 2.4rem;
+			line-height: 4rem;
+			padding-left: 1rem;
+			margin-right: 1rem;
+			padding-right: 1rem;
+			display: inline-block;
+			svg {
+				fill: $c-gray-500;
+				-webkit-transition: $trans;
+				   -moz-transition: $trans;
+				    -ms-transition: $trans;
+				     -o-transition: $trans;
+				        transition: $trans;
+			}
+			&:hover svg {
+				fill: $c-spices;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	svg {
+		width: 1em;
+		height: 1em;
+		vertical-align: middle;
+	}
+	.col-8 .col-auto {
+		width: 100%;
+		margin-bottom: 30px;
+		-webkit-flex: 0 0 100%;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		ul.menu {
+			letter-spacing: -30px;
+		}
+		li {
+			width: 50%;
+			@media ( max-width: 551px ) {
+				width: 100%;
+			}
+			display: inline-block;
+			vertical-align: middle;
+			letter-spacing: normal;
+		}
+	}
+	@media ( max-width: 900px ) {
+		.col-8,
+		.col-3,
+		.col-1 {
+			width: 100%;
+			max-width: 100%;
+			-webkit-flex: 0 0 100%;
+			    -ms-flex: 0 0 100%;
+			        flex: 0 0 100%;
+		}
+		.col-3 {
+			text-align: center;
+		}
+	}
+
+	.gform_footer .button:hover,
+	.gform_footer .button:active,
+	.gform_footer .button:focus {
+		background-color: #fea536;
+		border-color: #fea536;
+	}
+}

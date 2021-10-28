@@ -1,0 +1,43 @@
+@import "../../mobile/blocks/image-text-1";
+
+@media (min-width: 851px) {
+	.image-text-1 {
+		figure {
+			width: 60%;
+			overflow: hidden;
+			margin-right: -71px;
+			margin-bottom: 43px;
+			border-top-right-radius: 0;
+			border-bottom-left-radius: 56px;
+		}
+		.text-area {
+			margin-top: 46px;
+			position: relative;
+			width: calc(40% + 71px);
+			padding: 111px 63px 114px;
+			&::before {
+				top: 45px;
+				left: -27px;
+				width: 112px;
+				height: 8px;
+				content: " ";
+				position: absolute;
+				background: $c-spices;
+			}
+			.block-title * {
+				margin-top: 0;
+			}
+			p {
+				font-size: 1.8rem;
+			}
+		}
+		&.image-with-text-block-style-two {
+			.row {
+				align-items: flex-end;
+				.text-area {
+					padding-bottom: 40px;
+				}
+			}
+		}
+	}
+}

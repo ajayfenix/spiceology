@@ -1,0 +1,14 @@
+@import "../../mobile/blocks/image-slider";
+
+@media ( min-width: 768px ) {
+	.image-slider  {
+		.image-slides {
+			li.image-item {
+				width: 33.3%;
+				figure {
+					padding: 0 15px;
+				}
+			}
+		}
+	}
+}

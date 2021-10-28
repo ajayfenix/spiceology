@@ -1,0 +1,49 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.collection-carousel .upper {
+				letter-spacing: 3px;
+}
+.collection-carousel > p {
+				color: #4D4D4D;
+}
+.collection-carousel > * {
+				margin: 0 auto;
+}
+.collection-carousel .contain-collection-slider {
+				padding-top: 40px;
+}
+.collection-carousel .all-collections {
+				margin-top: 50px;
+}
+.collection-carousel .collection-slider {
+				opacity: 1;
+				visibility: visible;
+				list-style-type: none;
+}
+.collection-carousel .collection-slider .slide-collection-item {
+				width: 170px;
+				margin-right: 25px;
+				vertical-align: top;
+}
+.collection-carousel .collection-slider .slide-collection-item:last-child {
+				margin-right: 0;
+}
+.collection-carousel .collection-slider img {
+				display: inline-block;
+}
+.collection-carousel .collection-slider .h4 {
+				max-width: 167px;
+				margin: 2rem auto 0;
+				white-space: normal;
+}
+/*# sourceMappingURL=collection-carousel.css.map */

@@ -1,0 +1,64 @@
+@import "../../mixins-master";
+
+.page-title-hero {
+	padding: 39px 0;
+	text-align: center;
+	background: $c-blends;
+	&.with-line::after {
+		left: 50%;
+		bottom: 0;
+		width: 48px;
+		height: 4px;
+		content: " ";
+		position: absolute;
+		background: $c-spices;
+		-webkit-transform: translateX(-50%);
+		   -moz-transform: translateX(-50%);
+			-ms-transform: translateX(-50%);
+			 -o-transform: translateX(-50%);
+				transform: translateX(-50%);
+	}
+	h1 {
+		margin: 0;
+		color: #FFF;
+		line-height: 1.2;
+	}
+	.subcontent {
+		color: #FFF;
+		> * {
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.subhead {
+		margin: 0;
+		color: $c-spices;
+		letter-spacing: 3.38px;
+		text-transform: uppercase;
+	}
+}
+.search-banner {
+	margin-bottom: 40px;
+}
+.search-result-item {
+	padding: 15px 30px;
+	position: relative;
+	margin-bottom: 40px;
+	-webkit-box-shadow: $shadow-lg;
+			box-shadow: $shadow-lg;
+	.result-image-wrapper {
+		text-align: center;
+	}
+	.entry-meta {
+		font-weight: 700;
+		margin-top: -2rem;
+		font-size: 1.4rem;
+		color: $c-gray-700;
+		letter-spacing: 0.5px;
+		font-family: $font-alt;
+	}
+}

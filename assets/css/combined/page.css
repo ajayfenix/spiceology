@@ -1,0 +1,119 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.page-title-hero {
+				padding: 39px 0;
+				text-align: center;
+				background: #000000;
+}
+.page-title-hero.with-line::after {
+				left: 50%;
+				bottom: 0;
+				width: 48px;
+				height: 4px;
+				content: " ";
+				position: absolute;
+				background: #FEA536;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				transform: translateX(-50%);
+}
+.page-title-hero h1 {
+				margin: 0;
+				color: #FFF;
+				line-height: 1.2;
+}
+.page-title-hero .subcontent {
+				color: #FFF;
+}
+.page-title-hero .subcontent > *:first-child {
+				margin-top: 0;
+}
+.page-title-hero .subcontent > *:last-child {
+				margin-bottom: 0;
+}
+.page-title-hero .subhead {
+				margin: 0;
+				color: #FEA536;
+				letter-spacing: 3.38px;
+				text-transform: uppercase;
+}
+
+.search-banner {
+				margin-bottom: 40px;
+}
+
+.search-result-item {
+				padding: 15px 30px;
+				position: relative;
+				margin-bottom: 40px;
+				-webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+				-moz-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+				     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.search-result-item .result-image-wrapper {
+				text-align: center;
+}
+.search-result-item .entry-meta {
+				font-weight: 700;
+				margin-top: -2rem;
+				font-size: 1.4rem;
+				color: #4D4D4D;
+				letter-spacing: 0.5px;
+				font-family: "Archivo Narrow", sans-serif;
+}
+
+@media (min-width: 768px) {
+				.search-result-item {
+								display: -webkit-box;
+								display: -webkit-flex;
+								display: -moz-box;
+								display: -ms-flexbox;
+								display: flex;
+								-webkit-align-content: center;
+								-ms-flex-line-pack: center;
+								    align-content: center;
+								-webkit-justify-content: center;
+								-webkit-box-pack: center;
+								   -moz-box-pack: center;
+								    -ms-flex-pack: center;
+								        justify-content: center;
+				}
+				.search-result-item .result-image-wrapper {
+								width: 300px;
+								-webkit-align-self: center;
+								    -ms-flex-item-align: center;
+								            -ms-grid-row-align: center;
+								        align-self: center;
+				}
+				.search-result-item .result-content-wrapper {
+								padding-left: 20px;
+								width: -webkit-calc(100% - 300px);
+								width: -moz-calc(100% - 300px);
+								width: calc(100% - 300px);
+				}
+}
+/*# sourceMappingURL=page.css.map */

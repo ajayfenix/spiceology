@@ -1,0 +1,41 @@
+@import "../../mobile/templates/single-recipe";
+
+@media (min-width: 701px) {
+	.single_recipe--header {
+		.single_recipe--header-cat-info-img img,
+		.single_recipe--header-cat-info-img.single_recipe--header-cat-info-surName {
+			margin-right: 20px;
+		}
+		.single_recipe--header-bottom {
+			box-shadow: 0 1px 3px rgba(0,0,0,.10);
+		}
+		.single_recipe--header-tag {
+			justify-content: flex-end;
+			margin: 0;
+		}
+	}
+	.single_recipe--gallery {
+		.gallery-slider {
+			.gallery-item {
+				width: 33.33%;
+			}
+		}
+	}
+	.single_recipe--products {
+		.used-in-cards-container {
+			.contain-product-item {
+				width: 33%;
+			}
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	.single_recipe--products {
+		.used-in-cards-container {
+			.contain-product-item {
+				width: 25%;
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.home-separator {
+				position: relative;
+}
+.home-separator:after {
+				left: 0;
+				z-index: 1;
+				content: "";
+				width: 100%;
+				height: 12vw;
+				bottom: -2px;
+				position: absolute;
+				pointer-events: none;
+				background-position: 50% 0;
+				background-repeat: no-repeat;
+				-webkit-background-size: 130% 100%;
+				-moz-background-size: 130% 100%;
+				background-size: auto 100%;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 74'%3E%3Cstyle xmlns='http://www.w3.org/2000/svg'%3Epath%7Bfill:%23f2f2f2;%7D%3C/style%3E%3Cpath d='M0 0l720.5 74L1440 0v74H0zm0 3953h1440v410H0z'/%3E%3C/svg%3E");
+}
+/*# sourceMappingURL=home.css.map */

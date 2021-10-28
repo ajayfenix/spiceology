@@ -1,0 +1,292 @@
+{
+    "key": "group_5f24d93b9ff6b",
+    "title": "Features list",
+    "fields": [
+        {
+            "key": "field_5f24dc92ac47d",
+            "label": "Left Side",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f24dcedac481",
+            "label": "Heading Type",
+            "name": "heading_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "h1": "Heading 1",
+                "h2": "Heading 2",
+                "h3": "Heading 3",
+                "h4": "Heading 4",
+                "h5": "Heading 5",
+                "h6": "Heading 6"
+            },
+            "default_value": "h3",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f24dd38ac482",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f24dd40ac483",
+            "label": "Content",
+            "name": "content",
+            "type": "medium_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "standard_buttons": [
+                "bold",
+                "italic",
+                "underline",
+                "strikethrough",
+                "subscript",
+                "superscript",
+                "anchor",
+                "image",
+                "quote",
+                "pre",
+                "orderedlist",
+                "unorderedlist",
+                "indent",
+                "outdent",
+                "justifyLeft",
+                "justifyCenter",
+                "justifyRight",
+                "justifyFull",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "html",
+                "removeFormat"
+            ],
+            "custom_buttons": "",
+            "other_options": [
+                "disableExtraSpaces",
+                "spellcheck"
+            ],
+            "delay": 0
+        },
+        {
+            "key": "field_5f24dcc4ac47e",
+            "label": "Right Side",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f24de34ac484",
+            "label": "Featured items",
+            "name": "featured_item",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5f24de7bac486",
+            "min": 1,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add featured item",
+            "sub_fields": [
+                {
+                    "key": "field_5f24de7bac486",
+                    "label": "Title",
+                    "name": "feature_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f24de63ac485",
+                    "label": "Heading Type",
+                    "name": "heading_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "h1": "Heading 1",
+                        "h2": "Heading 2",
+                        "h3": "Heading 3",
+                        "h4": "Heading 4",
+                        "h5": "Heading 5",
+                        "h6": "Heading 6"
+                    },
+                    "default_value": "h3",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f24de93ac487",
+                    "label": "Content",
+                    "name": "feature_content",
+                    "type": "medium_editor",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "standard_buttons": [
+                        "bold",
+                        "italic",
+                        "underline",
+                        "strikethrough",
+                        "subscript",
+                        "superscript",
+                        "anchor",
+                        "image",
+                        "quote",
+                        "pre",
+                        "orderedlist",
+                        "unorderedlist",
+                        "indent",
+                        "outdent",
+                        "justifyLeft",
+                        "justifyCenter",
+                        "justifyRight",
+                        "justifyFull",
+                        "h1",
+                        "h2",
+                        "h3",
+                        "h4",
+                        "h5",
+                        "h6",
+                        "html",
+                        "removeFormat"
+                    ],
+                    "custom_buttons": "",
+                    "other_options": [
+                        "disableExtraSpaces",
+                        "spellcheck"
+                    ],
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5f24dcd2ac480",
+            "label": "End (Doesn't Appear)",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/features-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1606244112
+}

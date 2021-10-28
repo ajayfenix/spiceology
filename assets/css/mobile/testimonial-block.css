@@ -1,0 +1,120 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.testimonial-block {
+				padding-top: 80px;
+				color: #000000;
+}
+
+.testimonial-slider {
+				max-width: 1400px;
+				margin: 0 auto 50px;
+}
+.testimonial-slider.ct-freeflow-slider .ct-track {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+}
+@media (min-width: 551px) {
+				.testimonial-slider.ct-freeflow-slider .ct-track {
+								-webkit-box-pack: center;
+								-webkit-justify-content: center;
+								   -moz-box-pack: center;
+								    -ms-flex-pack: center;
+								        justify-content: center;
+				}
+}
+.testimonial-slider.ct-freeflow-slider .ct-arrow {
+				display: none;
+}
+.testimonial-slider .single-testimonial-slide {
+				width: 100%;
+				max-width: 300px;
+				/* margin-bottom: 30px; */
+				padding: 1.5rem;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-flex-wrap: nowrap;
+				    -ms-flex-wrap: nowrap;
+				        flex-wrap: nowrap;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: column;
+				   -moz-box-orient: vertical;
+				   -moz-box-direction: normal;
+				    -ms-flex-direction: column;
+				        flex-direction: column;
+				-webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+				   -moz-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+				        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+				-webkit-border-radius: 10px;
+				   -moz-border-radius: 10px;
+				        border-radius: 10px;
+				height: 100%;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card img {
+				width: 100%;
+				-webkit-border-radius: 10px 10px 0 0;
+				   -moz-border-radius: 10px 10px 0 0;
+				        border-radius: 10px 10px 0 0;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text {
+				padding: 50px 25px 15px;
+				text-align: left;
+				position: relative;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text .quote-mark {
+				position: absolute;
+				left: 25px;
+				top: 0px;
+				width: 20px;
+				height: 20px;
+				border-top: 3px solid #FEA536;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text .quote-mark svg {
+				margin-top: 5px;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text p {
+				margin: 0 0 10px;
+				white-space: pre-wrap;
+				color: #000000;
+}
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text h2,
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text h3,
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text h4,
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text h5,
+.testimonial-slider .single-testimonial-slide .single-testimonial-card .single-testimonial-card-text h6 {
+				margin: 0;
+				color: #000000;
+}
+.testimonial-slider .single-testimonial-slide:nth-child(odd) .single-testimonial-card {
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: reverse;
+				-webkit-flex-direction: column-reverse;
+				   -moz-box-orient: vertical;
+				   -moz-box-direction: reverse;
+				    -ms-flex-direction: column-reverse;
+				        flex-direction: column-reverse;
+}
+.testimonial-slider .single-testimonial-slide:nth-child(odd) .single-testimonial-card img {
+				-webkit-border-radius: 0 0 5px 5px;
+				   -moz-border-radius: 0 0 5px 5px;
+				        border-radius: 0 0 5px 5px;
+}
+/*# sourceMappingURL=testimonial-block.css.map */

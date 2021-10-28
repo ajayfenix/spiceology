@@ -1,0 +1,34 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.logo-grid {
+				text-align: center;
+}
+.logo-grid .grid {
+				margin: 0 0 65px;
+				padding: 0;
+				letter-spacing: -30px;
+}
+.logo-grid .grid li {
+				margin: 9px 0;
+				width: 33.33%;
+				display: inline-block;
+				letter-spacing: normal;
+				border-right: 1px solid #E6E6E6;
+}
+.logo-grid .grid li figure {
+				padding: 0 15px;
+}
+.logo-grid .grid li:nth-of-type(3n) {
+				border-right: none;
+}
+/*# sourceMappingURL=logo-grid.css.map */

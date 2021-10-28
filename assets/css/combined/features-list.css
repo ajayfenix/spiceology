@@ -1,0 +1,124 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+@media (max-width: 767px) {
+				.features-list .block-content-side,
+.features-list .features-side {
+								-webkit-box-sizing: border-box;
+								   -moz-box-sizing: border-box;
+								        box-sizing: border-box;
+								-webkit-box-flex: 0;
+								-webkit-flex: 0 1 auto;
+								   -moz-box-flex: 0;
+								    -ms-flex: 0 1 auto;
+								        flex: 0 1 auto;
+								width: 100%;
+								max-width: 100%;
+				}
+}
+.features-list .block-content-side {
+				text-align: center;
+}
+.features-list .block-title {
+				max-width: 400px;
+				position: relative;
+				display: inline-block;
+}
+@media (max-width: 767px) {
+				.features-list .block-title {
+								margin-bottom: 50px;
+				}
+}
+.features-list .block-title > *:first-child {
+				margin: 0;
+}
+.features-list .block-title::after {
+				width: 86px;
+				height: 8px;
+				content: " ";
+				margin-top: 20px;
+				display: inline-block;
+				background: #FEA536;
+}
+.features-list .block-content {
+				padding: 40px 0;
+}
+.features-list .features {
+				margin: 0;
+				padding: 0 0 0 13px;
+}
+.features-list .features li {
+				display: block;
+				min-height: 100px;
+				position: relative;
+				padding: 0 0 20px 27px;
+				border-left: 2px solid #E6E6E6;
+}
+.features-list .features li > *:first-child {
+				top: -10px;
+				margin-bottom: 0;
+				line-height: 43px;
+				margin-top: -10px;
+				position: relative;
+}
+.features-list .features li > *:first-child::after {
+				top: 9px;
+				left: -40px;
+				width: 24px;
+				height: 24px;
+				content: " ";
+				background: #FFF;
+				position: absolute;
+				border: 3px solid #FEA536;
+				-webkit-border-radius: 100px;
+				-moz-border-radius: 100px;
+				     border-radius: 100px;
+}
+.features-list .features li > *:not(:first-child) {
+				margin-top: -10px;
+}
+.features-list .features li:first-child {
+				margin-top: 0;
+}
+.features-list .features li:last-child {
+				border-left-color: transparent;
+}
+.features-list.align-center .features-single {
+				margin: 0 auto;
+}
+.features-list.feature-style-two .block-content-side {
+				text-align: center;
+}
+.features-list.feature-style-two .block-title {
+				text-align: center;
+				max-width: 400px;
+}
+.features-list.feature-style-two .block-title:after {
+				content: none;
+}
+.features-list.feature-style-two .block-content {
+				text-align: center;
+				padding: 0;
+}
+
+@media (min-width: 768px) {
+				.features-list .block-content-side {
+								text-align: right;
+								padding-top: 100px;
+								padding-right: 100px;
+				}
+				.features-list.feature-style-two .block-content-side {
+								padding-right: 0;
+								text-align: center;
+				}
+}
+/*# sourceMappingURL=features-list.css.map */

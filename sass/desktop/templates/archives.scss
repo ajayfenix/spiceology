@@ -1,0 +1,120 @@
+@import "../../mobile/templates/archives";
+
+@media (min-width: 550px) {
+	.author-details--recipe-card-box {
+		flex-basis: 50%;
+		max-width: 50%;
+	}
+}
+
+@media (min-width: 768px) {
+	.featured__recipe--carousel {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 5rem;
+		margin-bottom: 7rem;
+	}
+	.page-header.recipes-header {
+		border-radius: 0 0 30px 0;
+	}
+	.collection-header {
+		letter-spacing: normal;
+		-webkit-border-bottom-right-radius: 24px;
+		        border-bottom-right-radius: 24px;
+	}
+	.with-sidebar {
+		letter-spacing: -30px;
+		.sidebar {
+			width: 240px;
+			vertical-align: top;
+			display: inline-block;
+			letter-spacing: normal;
+		}
+		.primary {
+			vertical-align: top;
+			display: inline-block;
+			letter-spacing: normal;
+			width: calc(100% - 240px);
+		}
+	}
+	.author-details--header {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+		padding: 30px 0 0;
+		margin-bottom: 40px;
+		justify-content: center;
+		&::before {
+			left: 0;
+			top: 30px;
+			width: 40%;
+			content: "";
+			height: 100%;
+			position: absolute;
+			background-color: #1a1919;
+		}
+	}
+	.author-deatils--header-info {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 40%;
+		max-width: 40%;
+		align-self: center;
+		position: relative;
+		z-index: 2;
+	}
+	.author-deatils--header-banner {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 60%;
+		max-width: 60%;
+	}
+
+	.author-deatils--header-banner img {
+		border-radius: 0 0 50px 0;
+	}
+	.author-deatils--header-info h1 {
+		font-size: 36px;
+	}
+	.featured__recipe--single {
+		.featured__recipe--single-image {
+			height: auto;
+			position: relative;
+			&::before {
+				display: none;
+			}
+		}
+		.featured__recipe--single-text {
+			background: $c-gray-900;
+		}
+		.featured__recipe--single-text,
+		.featured__recipe--single-image {
+			max-width: 50%;
+			-webkit-flex: 0 0 50%;
+			    -ms-flex: 0 0 50%;
+			        flex: 0 0 50%;
+		}
+	}
+}
+@media (min-width: 900px) {
+	.author-details--recipe-card-box {
+		flex-basis: 25%;
+		max-width: 25%;
+	}
+}
+@media (min-width: 1000px) {
+	.featured__recipe--single {
+		.featured__recipe--single-text {
+			max-width: 40%;
+			-webkit-flex: 0 0 40%;
+			    -ms-flex: 0 0 40%;
+			        flex: 0 0 40%;
+		}
+		.featured__recipe--single-image {
+			max-width: 60%;
+			-webkit-flex: 0 0 60%;
+			    -ms-flex: 0 0 60%;
+			        flex: 0 0 60%;
+		}
+	}
+}

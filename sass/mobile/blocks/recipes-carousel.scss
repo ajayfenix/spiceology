@@ -1,0 +1,47 @@
+@import "../../mixins-master";
+
+.recipes-carousel {
+	.upper {
+		letter-spacing: 3px;
+	}
+	.contain-recipes-slider {
+		padding-top: 40px;
+	}
+	.all-recipes {
+		margin-top: 50px;
+		border: 1px solid $c-gray-200;
+	}
+	.text-container {
+		margin: 0 auto;
+		max-width: 560px;
+		> p {
+			color: $c-gray-700;
+		}
+	}
+	.recipes-slider {
+		-webkit-transition: $trans;
+		   -moz-transition: $trans;
+		    -ms-transition: $trans;
+		     -o-transition: $trans;
+		        transition: $trans;
+		.single_recipe--related-post-single {
+			margin-right: 0;
+			vertical-align: top;
+			width: 300px;
+			a {
+				color: #FFF;
+				&:hover {
+					color: $c-spices;
+				}
+			}
+		}
+		img {
+			display: block;
+		}
+		.h3 {
+			margin: 2rem auto 0;
+			max-width: 150px;
+			white-space: normal;
+		}
+	}
+}

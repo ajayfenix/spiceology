@@ -1,0 +1,65 @@
+body {
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+@media (min-width: 550px) {
+	.wp-block-buttons.aligncenter.mobile-btn-actions-wrapper {
+		display: none;
+	}
+	.collaborator-card {
+		&.full {
+			margin-left: 1%;
+			margin-right: 1%;
+			flex: 0 0 48%;
+			max-width: 48%;
+		}
+	}
+}
+
+@media (min-width: 767px) {
+	.single_recipe--related-post-single-link {
+		max-width: 100%;
+		img {
+			min-width: 280px;
+		}
+	}
+	.collaborator-card {
+		&.full {
+			flex: 0 0 31.3333333333%;
+			max-width: 31.3333333333%;
+		}
+	}
+	.container, .alignwide {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.show-on-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.show-on-desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 701px) {
+	.wp-block-cover.linear-bg {
+		background: none !important;
+	}
+	.wp-block-cover.linear-bg:before {
+		position: absolute;
+		top: 10%;
+		left: 0;
+		content: "";
+		width: 100%;
+		height: 90%;
+		background-image: linear-gradient(180deg,rgba(242,242,242,1) 0%,rgba(255,255,255,1) 100%);
+	}
+	.video-overlay .wp-block-embed-youtube .lyte-wrapper div.play {
+		width: 100px;
+		height: 100px !important;
+	}
+}

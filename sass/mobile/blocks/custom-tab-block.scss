@@ -1,0 +1,77 @@
+@import "../../mixins-master";
+
+.custom-tab--list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	li {
+		a {
+			color: $c-gray-500;
+			display: block;
+			font-size: 1.8rem;
+			@media (max-width: 480px) {
+				font-size: 1.5rem;
+				padding: 10px 20px;
+			}
+			font-weight: 700;
+			font-family: $font-alt;
+			padding: 10px 50px;
+			text-align: center;
+			border-bottom: 3px solid transparent;
+			&.is-active {
+				border-bottom-color: $c-spices;
+				color: $c-blends;
+			}
+		}
+	}
+}
+
+.custom-tab--content {
+	background: rgb(242,242,242);
+	background: -moz-linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#ffffff",GradientType=1);
+	padding: 60px 0;
+	display: none;
+	&.is-active {
+		display: block;
+	}
+}
+.custom-tab--content-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.collection--card {
+		padding: 0 15px;
+		margin-bottom: 30px;
+		flex-basis: 33.333%;
+		max-width: 33.333%;
+		@media ( max-width: 400px ) {
+			flex-basis: 50%;
+			max-width: 50%;
+		}
+		.collection--card-link {
+			display: block;
+		}	
+		.collection--card-link img {
+			padding: 5px;
+			background-color: #fff;
+			border: 5px solid $c-blends;
+		}
+		.collection--card-title {
+			display: block;
+			margin-top: 15px;
+			@media (max-width: 480px) {
+				h4 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.image-slider {
+				text-align: center;
+}
+.image-slider .image-slides {
+				margin: 0 0 65px;
+				padding: 0;
+				letter-spacing: -30px;
+}
+.image-slider .image-slides li.image-item {
+				display: inline-block;
+				letter-spacing: normal;
+				vertical-align: middle;
+				width: -webkit-calc( 100% - 100px );
+				width: -moz-calc( 100% - 100px );
+				width: calc( 100% - 100px );
+}
+.image-slider .image-slides li.image-item figure {
+				padding: 0 15px;
+}
+.image-slider .image-slides li.image-item figcaption {
+				margin-top: 20px;
+}
+.image-slider .image-slides li.image-item figcaption:before {
+				content: '"';
+				margin-right: -2px;
+}
+.image-slider .image-slides li.image-item figcaption:after {
+				content: '"';
+				margin-left: -2px;
+}
+
+@media (min-width: 768px) {
+				.image-slider .image-slides li.image-item {
+								width: 33.3%;
+				}
+				.image-slider .image-slides li.image-item figure {
+								padding: 0 15px;
+				}
+}
+/*# sourceMappingURL=image-slider.css.map */

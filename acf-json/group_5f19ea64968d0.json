@@ -1,0 +1,194 @@
+{
+    "key": "group_5f19ea64968d0",
+    "title": "Mega Menu",
+    "fields": [
+        {
+            "key": "field_5f19ea969602c",
+            "label": "Mega menu",
+            "name": "mega_menu",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f1a1b9abb40b",
+            "label": "Make as row?",
+            "name": "make_as_row",
+            "type": "true_false",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f19f1af97fec",
+            "label": "How many columns?",
+            "name": "how_many_columns",
+            "type": "number",
+            "instructions": "Pick a number from 1 - 12 or use 0 to make it auto\r\n<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "Column layout",
+            "min": 0,
+            "max": 12,
+            "step": 1
+        },
+        {
+            "key": "field_5f19eb079602e",
+            "label": "Featured Image",
+            "name": "featured_image",
+            "type": "true_false",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f19eb7a96030",
+            "label": "Use as row title",
+            "name": "use_as_row_title",
+            "type": "true_false",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f19ebe097af7",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f19eb4e9602f",
+            "label": "Row Divider",
+            "name": "divider",
+            "type": "true_false",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f19ebe097af7",
+            "label": "Description",
+            "name": "description_toggle",
+            "type": "true_false",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f19eab69602d",
+            "label": "Description",
+            "name": "description",
+            "type": "textarea",
+            "instructions": "<em>Only use these settings if it has a parent with mega menu enabled.<\/em>",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f19ebe097af7",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "location\/primary"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1606244112
+}

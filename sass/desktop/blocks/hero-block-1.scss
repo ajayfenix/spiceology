@@ -1,0 +1,114 @@
+@import "../../mobile/blocks/hero-block-1";
+
+.hero-block-1 {
+	@media (min-width: 801px) {
+		border-radius: 0 0 64px 0;
+		.hero-content {
+			.h1 {
+				font-size: 5rem;
+			}
+			.contain-hero-text > * {
+				font-size: 2rem;
+			}
+			.contain-hero-buttons {
+				padding-top: 32px;
+				text-align: left;
+				.wp-block-button {
+					&:not(:last-child) {
+						margin-right: 1.2rem;
+					}
+				}
+				.wp-block-button__link {
+					padding: 1.6rem 2.4rem;
+					font-size: 1.8rem;
+					min-width: 164px;
+				}
+			}
+		}
+	}
+	@media (min-width: 801px) and (max-width: 1200px) {
+		[class^="col-no-gutter"] {
+			width: 50%;
+			max-width: 50%;
+		}
+	}
+	&.hero-block-style-1 {
+		@media (min-width: 801px) {
+			[class^="col-no-gutter"] {
+				min-height: 600px;
+			}
+			.hero-content {
+				.h1 {
+					&::before {
+						width: 72px;
+						height: 72px;
+						border: 8px solid $c-spices;
+					}
+				}
+				.contain-hero-text > * {
+					&:last-child::after {
+						margin-left: 1rem;
+						border-top: 8px solid $c-spices;
+					}
+				}
+			}
+		}
+	}
+	&.hero-block-style-2 {
+		@media (min-width: 801px) {
+			.hero-content {
+				padding: 1.5rem;
+				.h1 {
+					margin-bottom: 1.2rem;
+					&::before {
+						top: -1rem;
+					}
+				}
+			}
+			.hero-contain-text {
+				max-width: 85%;
+			}
+			.contain-hero-text > * {
+				font-size: 1.8rem;
+			}
+		}
+	}
+	&.hero-block-style-3 {
+		@media (min-width: 801px) {
+			.hero-content {
+				background: $c-gray-900;
+				.hero-contain-text {
+					max-width: 300px;
+					text-align: left;
+				}
+				.h1 {
+					font-size: 1.8rem;
+				}
+				.contain-hero-text-alt {
+					font-size: 5rem;
+					line-height: 0.96em;
+					&:after {
+						left: 1.2rem;
+						transform: translateX(0);
+					}
+				}
+			}
+		}
+	}
+	&.hero-block-style-2,
+	&.hero-block-style-3 {
+		@media (min-width: 801px) {
+			[class^="col-no-gutter"] {
+				min-height: 480px;
+			}
+			figure {
+				position: relative;
+				img {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+	} 
+}

@@ -1,0 +1,23 @@
+@media ( min-width: 701px ) {
+	#site-footer {
+		.col-8 .col-auto {
+			width: auto;
+			-webkit-flex: 1 1 auto;
+			    -ms-flex: 1 1 auto;
+			        flex: 1 1 auto;
+			ul.menu {
+				letter-spacing: normal;
+			}
+			li {
+				width: 100%;
+				display: block;
+			}
+		}
+		.copyright {
+			text-align: left;
+			ul {
+				margin: 0 0 0 3rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+@import "../../mobile/blocks/create-account";
+
+@media ( min-width: 1020px ) {
+	.create-account {
+		padding: 60px 0;
+		.row {
+			display: flex;
+			-webkit-justify-content: center;
+					justify-content: center;
+			> * {
+				margin: 1rem 0;
+			}
+		}
+		.item {
+			padding: 0 40px;
+		}
+		.text-with-icon {
+			padding-right: 40px;
+			padding-bottom: 0px;
+			border-right: 1px solid $c-spices;
+			&:after {
+				display: none;
+			}
+		}
+		.item-container {
+			padding: 0;
+			border-right: 1px solid $c-spices;
+			&:after {
+				display: none;
+			}
+			&:last-of-type {
+				border-right: none;
+			}
+		}
+	}
+}

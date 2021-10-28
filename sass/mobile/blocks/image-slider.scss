@@ -1,0 +1,30 @@
+@import "../../mixins-master";
+
+.image-slider {
+	text-align: center;
+	.image-slides {
+		margin: 0 0 65px;
+		padding: 0;
+		letter-spacing: -30px;
+		li.image-item {
+			display: inline-block;
+			letter-spacing: normal;
+			vertical-align: middle;
+			width: calc( 100% - 100px );
+			figure {
+				padding: 0 15px;
+			}
+			figcaption {
+				margin-top: 20px;
+				&:before {
+					content: '"';
+					margin-right: -2px;
+				}
+				&:after {
+					content: '"';
+					margin-left: -2px;
+				}
+			}
+		}
+	}
+}

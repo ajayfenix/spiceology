@@ -1,0 +1,13 @@
+@import "../../mobile/blocks/image-text-button";
+
+@media (min-width: 701px) {
+	.image-text-button {
+		margin: 0;
+	}
+	.wp-block-column:nth-child(even) .image-text-button .row {
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+}
+

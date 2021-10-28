@@ -1,0 +1,40 @@
+@import "../../mixins-master";
+
+.collection-carousel {
+	.upper {
+		letter-spacing: 3px;
+	}
+	> p {
+		color: $c-gray-700;
+	}
+	> * {
+		margin: 0 auto;
+	}
+	.contain-collection-slider {
+		padding-top: 40px;
+	}
+	.all-collections {
+		margin-top: 50px;
+	}
+	.collection-slider {
+		opacity: 1;
+		visibility: visible;
+		list-style-type: none;
+		.slide-collection-item {
+			width: 170px;
+			margin-right: 25px;
+			vertical-align: top;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		img {
+			display: inline-block;
+		}
+		.h4 {
+			max-width: 167px;
+			margin: 2rem auto 0;
+			white-space: normal;
+		}
+	}
+}

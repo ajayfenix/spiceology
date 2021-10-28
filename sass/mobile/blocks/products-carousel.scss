@@ -1,0 +1,96 @@
+@import "../../mixins-master";
+.products-carousel {
+	padding-bottom: 60px;
+	&--wrapper {
+		margin-bottom: 80px;
+		.contain-product-item {
+			width: 100%;
+			padding: 1.5rem;
+			max-width: 260px;
+			display: flex;
+			align-items: stretch;
+			min-height: 100%;
+		}
+		.bc-product__title-link {
+			white-space: normal;
+		}
+		.bc-product-card {
+			overflow: hidden;
+			background: #FFF;
+			-webkit-border-radius: 8px;
+					border-radius: 8px;
+			-webkit-box-shadow: $shadow-base;
+					box-shadow: $shadow-base;
+			.bc-quickview-trigger {
+				width: 100%;
+			}
+			.bc-product-card__featured-image {
+				max-width: 100%;
+				img {
+					width: 100%;
+				}
+			}
+		}
+		&.ct-freeflow-slider .ct-arrow {
+			background: transparent;
+		}
+	}
+	.btn-round {
+		border: none;
+		background-color: $c-spices;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $c-blends;
+			color: $c-white;
+		}
+	}
+	.related__cat--list {
+		padding: 0;
+		margin-top: 30px;
+		list-style-type: none;
+		@media (min-width: 551px) {
+			display: flex;
+			justify-content: center;
+		}
+	}
+	
+	.related__cat--list li a {
+		font-size: 2rem;
+		font-weight: 700;
+		position: relative;
+		border-bottom: none;
+		font-family: $font-alt;
+	}
+	
+	.related__cat--list li a svg {
+		width: 20px;
+		height: 20px;
+		fill: $c-spices;
+		margin-left: 10px;
+		display: inline-block;
+		vertical-align: middle;
+		@media (min-width: 551px) {
+			width: 25px;
+			height: 25px;
+		}
+	}
+	
+	.related__cat--list li {
+		padding: 10px;
+		&:first-child {
+			border-bottom: 1px solid $c-gray-100;
+		}
+		@media (max-width: 550px) {
+			width: 100%;
+		}
+		@media (min-width: 551px) {
+			padding: 30px;
+			&:first-child {
+				border-bottom: none;
+				border-right: 1px solid $c-gray-100;
+			}
+		}
+	}
+	
+}

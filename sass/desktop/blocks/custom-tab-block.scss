@@ -1,0 +1,18 @@
+@import "../../mobile/blocks/custom-tab-block";
+
+@media (min-width: 701px) {
+  .custom-tab--content-wrapper { 
+    .collection--card {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .custom-tab--content-wrapper { 
+    .collection--card {
+      flex-basis: 16.667%;
+      max-width: 16.667%;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+/*
+	Colors should be prefixed with a c- to easily distinguish it's a color
+ */
+/*
+	Define font related variables here
+ */
+/*
+	Defining Shadows
+ */
+/*
+	Transition to use
+ */
+.recipes-carousel .upper {
+				letter-spacing: 3px;
+}
+.recipes-carousel .contain-recipes-slider {
+				padding-top: 40px;
+}
+.recipes-carousel .all-recipes {
+				margin-top: 50px;
+				border: 1px solid #CCCCCC;
+}
+.recipes-carousel .text-container {
+				margin: 0 auto;
+				max-width: 560px;
+}
+.recipes-carousel .text-container > p {
+				color: #4D4D4D;
+}
+.recipes-carousel .recipes-slider {
+				-webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+				-moz-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+				-o-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+				transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.recipes-carousel .recipes-slider .single_recipe--related-post-single {
+				margin-right: 0;
+				vertical-align: top;
+				width: 300px;
+}
+.recipes-carousel .recipes-slider .single_recipe--related-post-single a {
+				color: #FFF;
+}
+.recipes-carousel .recipes-slider .single_recipe--related-post-single a:hover {
+				color: #FEA536;
+}
+.recipes-carousel .recipes-slider img {
+				display: block;
+}
+.recipes-carousel .recipes-slider .h3 {
+				margin: 2rem auto 0;
+				max-width: 150px;
+				white-space: normal;
+}
+/*# sourceMappingURL=recipes-carousel.css.map */

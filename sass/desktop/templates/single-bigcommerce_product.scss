@@ -1,0 +1,12 @@
+@import "../../mobile/templates/single-bigcommerce_product";
+
+@media ( min-width: 801px ) {
+	.single-bigcommerce_product {
+		.review-overview {
+			display: flex;
+			.reviews-chart {
+				padding-left: 20px;
+			}
+		}
+	}
+}

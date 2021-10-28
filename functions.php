@@ -666,7 +666,10 @@ function ct_scripts() {
 		'ct-main'				=> array( 'main.js', '', false ),
 	);
 
+	############# Fenix Code Starts #############
 	wp_enqueue_script( 'ct-delivery-estimate', assets_uri() . '/js/delivery-estimate.js', array( 'jquery' ), false, true );
+	############# Fenix Code Starts #############
+
 	
 	wp_enqueue_style( 'ct-flickity', assets_uri() . '/css/vendor/flickity.css', false, '2.2.1' );
 

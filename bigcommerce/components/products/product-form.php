@@ -44,11 +44,11 @@ if ( is_user_logged_in() ) {
 	<!-- data-js="bc-product-message" is required. -->
 	<div class="bc-product-form__product-message" data-js="bc-product-message"></div>
 
-	<!-- data-js="variant_id" is required. -->
+	<!--############# Fenix Code Starts #############-->
 	<input type="hidden" name="variant_id" class="variant_id" data-js="variant_id" value="">
-
 	<input id="fenixpdptype" value="pdp" type="hidden">
       <div class="fenixfixddelivery_woocom" style="display: none;"></div>
+      <!--#############  Fenix Code Ends #############-->
 
 	<div class="group-fields">
 		<div class="bc-product-form__quantity">

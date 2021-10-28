@@ -10,9 +10,11 @@
  */
 ?>
 
+<!--############# Fenix Code Starts #############-->
 <div style="display: block;width: 100%;text-align: center;margin-top: 10px;">
 	<div id="fenixfixddelivery_woocom_minicart" style="display: none;"></div>
 </div>
+<!--############# Fenix Code Ends #############-->
 <div class="bc-footer-mini-cart container">
 	<?= $summary; ?>
 	<?= $actions; ?>

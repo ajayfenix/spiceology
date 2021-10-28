@@ -14,8 +14,8 @@ use BigCommerce\Taxonomies\Brand\Brand;
 
 ?>
 
+<!--############# Fenix Code Starts #############-->
 <?php 
-
 $skudata = [];
 foreach($cart['items'] as $key => $value) { 
     $product["sku"] = $value['sku']['variant'];
@@ -27,6 +27,7 @@ foreach($cart['items'] as $key => $value) {
 echo '<input type="hidden" id="fenixpdptype" value="cart" >';
 echo '<input type="hidden" id="fenixskucart" value='.json_encode($skudata).' >';
 ?>
+<!--############# Fenix Code Ends #############-->
 
 <?php foreach ( $cart['items'] as $item ) { ?>
 	<?php
@@ -102,7 +103,8 @@ echo '<input type="hidden" id="fenixskucart" value='.json_encode($skudata).' >';
 	</div>
 <?php } ?>
 
-
+<!--############# Fenix Code Starts #############-->
 <div style="display: block;width: 100%;text-align: center;margin-top: 10px;">
-<div id="fenixfixddelivery_woocom" style="display: none;"></div>
+	<div id="fenixfixddelivery_woocom" style="display: none;"></div>
 </div>
+<!--############# Fenix Code Ends #############-->

@@ -14,7 +14,7 @@ use BigCommerce\Taxonomies\Brand\Brand;
 
 ?>
 
-
+<!--############# Fenix Code Starts #############-->
 <?php 
 	$skudata = [];
 	foreach($cart['items'] as $key => $value) { 
@@ -27,6 +27,7 @@ use BigCommerce\Taxonomies\Brand\Brand;
 	echo '<input type="hidden" id="fenixpdptype_minicart" value="minicart" >';
 	echo '<input type="hidden" id="fenixskucart_minicart" value='.json_encode($skudata).' >';
 ?>
+<!--############# Fenix Code Ends #############-->
 
 <?php foreach ( $cart['items'] as $item ) { ?>
 	<?php

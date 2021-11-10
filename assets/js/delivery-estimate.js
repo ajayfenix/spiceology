@@ -239,29 +239,6 @@ function _fenixdeliveryEstimateget(pageType) {
     });
 }
 
-// function _fenixgetstoreinfo(){
-//   let storefetchurl = fenixcommerceGlobal.apiurl+"/v1/";
-//   storefetchurl = storefetchurl+window.location.hostname+"/storeinfo";
-  
-//   jQuery.ajax({
-//       type: "GET",
-//       url: storefetchurl,
-//       async: "true",
-//       dataType: "json"
-//   })
-//   .done(function(data) {
-//       if(data && data.tenantId){
-//           fenixcommerceGlobal.tenantId = data.tenantId;
-//           fenixcommerceGlobal.storeinfo = data;
-//           localStorage.setItem("fenix-tenantId", data.tenantId);
-//           localStorage.setItem("fenix-storeinfo", JSON.stringify(data));
-//           _fenixipLookUp();
-//       }
-//   })
-//   .fail(function(error) {
-
-//   });  
-// }
 
 function isValidUSZip(sZip) {
   sZip = parseInt(sZip);
@@ -286,8 +263,6 @@ function _fenixipLookUp() {
 if( fenixcommerceGlobal.zipcode != undefined && fenixcommerceGlobal.zipcode != null && fenixcommerceGlobal.zipcode != "" ){
     if( fenixcommerceGlobal.pageType == "pdp" || fenixcommerceGlobal.pageType == "cart" ){
       _fenixdeliveryEstimateget(fenixcommerceGlobal.pageType);  
-    }else{
-      _fenixdeliveryEstimateget("pdp"); 
     }    
 }else{
     _fenixipLookUp();

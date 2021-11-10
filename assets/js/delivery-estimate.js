@@ -25,7 +25,7 @@ let fenixcommerceGlobal = {
   fenixformonchange : ".bc-form.bc-product-form",
   zipcode : localStorage.getItem('fenix_zipcode'),
   variations : jQuery("[data-js=product-variants-object]").attr("data-variants") || "{}",
-  apiurl : "https://delest-api.bcapp.fenixcommerce.com/fenixdelest/api",
+  apiurl : "https://spiceology.delestbc.fenixcommerce.com/spiceology-dev/fenixdelest/api",
   tenantId : "6aa69d290f784247bf3dc41d6710d174",
   xapiKey : "3XPTipyyOm5Rg1iALWckz6rYeTT0CHGn5L0N4QgI",
   storeinfo : localStorage.getItem('fenix-storeinfo') || "",
